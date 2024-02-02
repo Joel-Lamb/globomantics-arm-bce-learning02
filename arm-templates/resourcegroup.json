@@ -5,15 +5,15 @@
         "location": {
             "type": "string",
             "metadata": {
-                "description": "Enter the location to deploy the resources to"
-            }
+                "description": "Enter the location to deploy the resource to"
+            },
             "defaultValue": "United States East"
-        }
+        },
         "resourceGroupName": {
             "type": "string",
             "metadata": {
-                "description": "Enter the name for teh resource group"
-            }
+                "description": "Enter the name for the resource group"
+            },
             "defaultValue": "rg-githubactions"
         }
     },
