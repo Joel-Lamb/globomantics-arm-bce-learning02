@@ -30,7 +30,7 @@ jobs:
         uses: Azure/arm-deploy@v1.0.9
         with: 
           scope: subscription
-          subscriptionId: cIm8Q~1C__JWq6rsMcyG4eIC2BR4ygI_3P8jiaeK
+          subscriptionId: b90e0f06-8341-44c6-a826-cb0776a173a3
           region: eastus
           template: ./arm-templates/resourcegroup.json
           deploymentName: rg-githubactions
