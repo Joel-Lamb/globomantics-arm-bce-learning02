@@ -1,0 +1,14 @@
+name: "Bicep Deploy Workflow"
+
+on:
+    push:
+        branches:
+            - main
+
+env:
+    subscriptionId: b90e0f06-8341-44c6-a826-cb0776a173a3
+
+jobs:
+    bicepAzCliDeploy: 
+
+    bicepArmDeployAction: 
